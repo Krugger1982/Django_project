@@ -2,9 +2,10 @@
   <a href="{% url 'learning_logs:index' %}"> Main  page </a> - 
   <a href="{% url 'learning_logs:topics' %}"> Topics </a> - 
   {% if user.is_authenticated %}
-    Hello, {{username}}!
+    Hello, {{user.first_name}}!
 	<a href="{% url 'users:logout' %}"> Log out </a>
   {% else %}
+    <a href="{% url 'users:register' %}"> Register </a>
     <a href="{% url 'users:login' %}"> Log in </a>
   {% endif %}
 </p>
