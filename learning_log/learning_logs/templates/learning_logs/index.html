@@ -1,7 +1,14 @@
 {% extends "learning_logs/base.html" %}
-
-
-{% block content %}
-  <p> Learning Log </p>
-  <p>Learning log will help you keep and safe your track of learning some sciense.</p>
-{% endblock content %}
+{% block page_header %}
+  <div class="jumbotron">
+    <h1 class="display-3"> Зафиксируйте ваше обучение.</h1>
+    <p class="lead"> 
+      Создайте ваш собственный журнал обучения, сохраните список тем которые вам
+      довелось изучать. Каждый раз, когда вы узнаете что-то новое, делайте запись в этот 
+      журнал, а также иногда можно подводить суммирующие итоги обучения.
+    </p>
+    <a class="btn btn-lg btn-primary" href="{% url 'users:register' %}" role="button">
+      зарегистрируйтесь чтобы начать работу &raquo;
+    </a>
+  </div>
+{% endblock page_header %}

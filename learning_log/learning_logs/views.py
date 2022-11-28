@@ -8,7 +8,6 @@ from django.http import Http404
 def index(request):
     """ Домашняя страница для приложения learning_logs
     """
-    print('hello, world!')
     return render(request, 'learning_logs/index.html')
 
 
