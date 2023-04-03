@@ -13,8 +13,8 @@ sqlite
 ## Установка
 
 Чтоб развернуть проект на локальной машине клонируйте репозиторий 
-git clone https://github.com/Krugger1982/Django_project
 
+```git clone https://github.com/Krugger1982/Django_project```
 
 #### Установите и активируйте виртуальное окружение.  
 
@@ -33,7 +33,7 @@ $ python3 -m venv venv
 ```$ pip unstall django ```
 
 Для запуска кода необходим SECRET_KEY
-для получения секретного ключа обратитесь к владельцу приложения
+для получения секретного ключа обратитесь к [владельцу приложения](https://vk.com/razumovsky1982) 
 Получив файл с секретным ключом, разместите его в директории /Django_project/learning_log/learning_log/
 
 # Запуск сервера на локальной машине 
