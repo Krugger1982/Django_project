@@ -30,7 +30,7 @@ $ python3 -m venv venv
 
 при активированном виртуальном окружении выполните команду: 
 
-```$ pip unstall -r requirements.txt ```
+```$ pip install -r requirements.txt ```
 
 Для запуска кода необходим SECRET_KEY
 Для получения секретного ключа обратитесь к [владельцу приложения](https://vk.com/razumovsky1982).
