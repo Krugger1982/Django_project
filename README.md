@@ -14,7 +14,7 @@ sqlite
 
 Чтоб развернуть проект на локальной машине клонируйте репозиторий 
 
-```git clone https://github.com/Krugger1982/Django_project```
+```git clone git@github.com:Krugger1982/Django_project.git```
 
 #### Установите и активируйте виртуальное окружение.  
 
