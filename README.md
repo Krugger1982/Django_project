@@ -32,10 +32,6 @@ $ python3 -m venv venv
 
 ```$ pip install -r requirements.txt ```
 
-Для запуска кода необходим SECRET_KEY
-Для получения секретного ключа обратитесь к [владельцу приложения](https://vk.com/razumovsky1982).
-
-Получив файл с секретным ключом, разместите его в директории /Django_project/learning_log/learning_log/
 
 # Запуск сервера на локальной машине 
 В папке Django_project/learning_log/ выполните команду запуска сервера:  
