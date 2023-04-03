@@ -18,7 +18,7 @@ def register(request):
             # Одновременно с сохранением нового пользователя
             # будет очцществлен вход для него и переход на главную
             login(request, new_user)
-            return redirect('learnind_logs:index')
+            return redirect('learning_logs:index')
     # Вывод устой или недействительной формы
     context = {'form': form}
     return render(request, 'registration/register.html', context)
